@@ -37,7 +37,6 @@
     "lines": 100
   },
   "dependencies": {
-    "fabric-shim-api": "2.5.5",
     "class-transformer": "^0.4.0",
     "fast-safe-stringify": "^2.1.1",
     "get-params": "^0.1.2",
@@ -45,6 +44,7 @@
     "winston": "^3.7.2"
   },
   "devDependencies": {
+    "fabric-shim-api": "2.5.5",
     "ajv": "^6.12.2",
     "ajv-cli": "^3.2.1",
     "ajv-formats": "2.1.1",
