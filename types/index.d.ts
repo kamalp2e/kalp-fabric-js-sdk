@@ -19,7 +19,7 @@ declare module 'kalp-fabric-js-sdk' {
     }
 
     export class Kalpcontract {
-        constructor(name?: string);
+        constructor(name?: string, IsPayableContract?: boolean);
 
         static _isContract(): boolean;
 
