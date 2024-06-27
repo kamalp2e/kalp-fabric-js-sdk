@@ -7,7 +7,7 @@
 
 declare module 'kalp-fabric-js-sdk' {
     import {Logger} from 'winston';
-    import {ChaincodeStub, ClientIdentity} from 'fabric-shim-api';
+    import {ChaincodeStub, ClientIdentity} from 'kalp-shim';
 
     export class Context {
         stub: ChaincodeStub;
