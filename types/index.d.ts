@@ -18,7 +18,7 @@ declare module 'kalp-fabric-js-sdk' {
         }
     }
 
-    export class Contract {
+    export class Kalpcontract {
         constructor(name?: string);
 
         static _isContract(): boolean;
@@ -32,6 +32,12 @@ declare module 'kalp-fabric-js-sdk' {
         createContext(): Context;
         getName(): string;
 
+    }
+
+    export class kalpsdk {
+        // constructor(name?: string);
+        // static _isContract(): boolean;
+        putStateWithoutKYC(key: string, value: Uint8Array): Promise<void>;
     }
 
 
