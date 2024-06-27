@@ -9,7 +9,7 @@ declare module 'kalp-fabric-js-sdk' {
     import {Logger} from 'winston';
     import {ChaincodeStub, ClientIdentity} from 'fabric-shim-api';
 
-    export class Context {
+    export class Kalpsdk {
         stub: ChaincodeStub;
         clientIdentity: ClientIdentity;
         logging: {
@@ -34,12 +34,12 @@ declare module 'kalp-fabric-js-sdk' {
 
     }
 
-    export class Kalpsdk {
-        constructor()
-        // constructor(name?: string);
-        // static _isContract(): boolean;
-        putStateWithoutKYC(key: string, value: Uint8Array): Promise<void>;
-    }
+    // export class Kalpsdk {
+    //     constructor()
+    //     // constructor(name?: string);
+    //     // static _isContract(): boolean;
+    //     putStateWithoutKYC(key: string, value: Uint8Array): Promise<void>;
+    // }
 
 
     export class JSONSerializer {
