@@ -34,7 +34,7 @@ declare module 'kalp-fabric-js-sdk' {
 
     }
 
-    export class kalpsdk {
+    export class Kalpsdk {
         // constructor(name?: string);
         // static _isContract(): boolean;
         putStateWithoutKYC(key: string, value: Uint8Array): Promise<void>;
