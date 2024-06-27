@@ -10,8 +10,8 @@
  * @see {@link fabric-contract-api.Contract}
  */
 module.exports.Kalpcontract = require('./lib/contract.js');
-module.exports.Context = require('./lib/context.js');
-module.exports.Kalpsdk = require('./lib/kalpsdk.js');
+module.exports.Kalpsdk = require('./lib/context.js');
+// module.exports.Kalpsdk = require('./lib/kalpsdk.js');
 
 Object.assign(module.exports, require('./lib/annotations'));
 
