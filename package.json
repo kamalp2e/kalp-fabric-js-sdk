@@ -9,9 +9,7 @@
     "url": "https://github.com/hyperledger/fabric-chaincode-node"
   },
   "keywords": [
-    "fabric-shim",
-    "Hyperledger Fabric",
-    "Fabric Shim"
+    "kalp-shim"
   ],
   "engines": {
     "node": ">=18"
@@ -44,7 +42,7 @@
     "winston": "^3.7.2"
   },
   "devDependencies": {
-    "fabric-shim-api": "2.5.5",
+    "kalp-shim": "github:kamalp2e/kalp-shim",
     "ajv": "^6.12.2",
     "ajv-cli": "^3.2.1",
     "ajv-formats": "2.1.1",
