@@ -42,7 +42,6 @@
     "get-params": "^0.1.2",
     "reflect-metadata": "^0.1.13",
     "winston": "^3.7.2",
-    "kalp-shim-sdk-new": "git@github.com:kamalp2e/kalp-shim-sdk-new.git",
   },
   "devDependencies": {
     "fabric-shim-api": "2.5.5",
