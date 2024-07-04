@@ -34,14 +34,6 @@ declare module 'kalp-fabric-js-sdk' {
 
     }
 
-    // export class Kalpsdk {
-    //     constructor()
-    //     // constructor(name?: string);
-    //     // static _isContract(): boolean;
-    //     putStateWithoutKYC(key: string, value: Uint8Array): Promise<void>;
-    // }
-
-
     export class JSONSerializer {
         toBuffer(result: any, schema:any, loggerPrefix?:string): Buffer;
         fromBuffer(data: Buffer, schema:any, loggerPrefix?:string): any;
